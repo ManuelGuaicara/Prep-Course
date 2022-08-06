@@ -41,7 +41,7 @@ function suma(x, y) {
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  return y - x;
+  return x - y;
 }
 
 function multiplica(x, y) {
@@ -135,10 +135,10 @@ function redondearHaciaArriba(num) {
   return Math.ceil(num);
 }
 
-function numeroRandom(max) {
+function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return Math.floor(Math.random() * max);
+  return Math.random(); 
 }
 
 function esPositivo(numero) {
@@ -167,7 +167,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return 'Hola, soy ' + Nombre + ' ' + Apellido;
+  return nombre + ' ' + apellido;
 }
 
 function obtenerSaludo(nombre) {
